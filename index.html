@@ -10,8 +10,8 @@
   <style>
     body { margin: 0; background: #fcfcfc; color: #1b1919; font-family: system-ui, sans-serif; }
     .ehm-page { width: min(100% - 2rem, 26rem); margin: 0 auto; padding: 3rem 0; text-align: center; }
-    h1 { font-size: clamp(1.5rem, 6vw, 2rem); margin: 1rem 0 1.5rem; }
-    .ehm-logo { display: block; width: min(100%, 20rem); height: auto; aspect-ratio: 2.25; margin-inline: auto; object-fit: cover; object-position: center 42%; }
+    .ehm-brand { margin: 0 -.5rem 1.5rem; }
+    .ehm-logo { display: block; width: min(100%, 26rem); height: auto; aspect-ratio: 2.25; margin-inline: auto; object-fit: cover; object-position: center 42%; }
     .ehm-links { display: grid; gap: .75rem; }
     .ehm-links a { display: block; border: 1px solid #d8cece; border-radius: .625rem; padding: .875rem 1rem; background: #fff; color: #261d1d; font-weight: 650; text-decoration: none; }
     .ehm-links a:hover { border-color: #ad171d; }
@@ -22,8 +22,9 @@
 </head>
 <body>
   <main class="ehm-page">
-    <img class="ehm-logo" src="./ehm-logo.png" alt="" width="1024" height="1024">
-    <h1>EHM Construction LLC</h1>
+    <h1 class="ehm-brand">
+      <img class="ehm-logo" src="./ehm-logo.png" alt="EHM Construction LLC" width="1024" height="1024">
+    </h1>
     <nav class="ehm-links" aria-label="Official business links">
       <a href="https://ehmconstructionllc.com/">Visit Our Website</a>
       <a href="https://share.google/HeEXAikND1FAa8eZr">Find Us on Google</a>
